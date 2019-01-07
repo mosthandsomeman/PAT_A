@@ -3,7 +3,9 @@
 //#include <iostream>
 //#include <vector>
 //using namespace std;
-//vector<int> sum, resultArr;
+//const int maxn = 100005;
+//vector<int> resultArr;
+//int sum[maxn] = { 0 };
 //int n, m;
 //void Func(int i, int &j, int &tempsum) {
 //	int left = i, right = n;
@@ -18,8 +20,7 @@
 //	tempsum = sum[j] - sum[i - 1];
 //}
 //int main() {
-//	scanf("%d%d", &n, &m);
-//	sum.resize(n + 1);
+//	scanf("%d %d", &n, &m);
 //	for (int i = 1; i <= n; i++) {
 //		scanf("%d", &sum[i]);
 //		sum[i] += sum[i - 1];
